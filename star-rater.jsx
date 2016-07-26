@@ -3,7 +3,7 @@ var React = require('react');
 var StarRater = React.createClass({
 	render: function() {
 		var stars = [];
-		for(var i=0; i<5; i++) {
+		for(var i = 0; i < 5; i++) {
 			var className;
 			if(i < this.props.rating || 0) {
 				className = 'fa fa-star';
